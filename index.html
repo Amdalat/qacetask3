@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#">gofundme</a>
@@ -20,12 +21,12 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="d-flex flex-lg-row flex-column w-100 justify-content-between align-items-lg-center gap-3">
                     <div class="navbar-nav mx-lg-auto">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Causes</a>
-                    <a class="nav-link" href="#">About us</a>
-                    <a class="nav-link" href="#">Testimonial</a>
-                    <a class="nav-link" href="#">Blogs</a>
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                    <a class="nav-link" href="#causes">Causes</a>
+                    <a class="nav-link" href="#learn">About us</a>
+                    <a class="nav-link" href="#testimonial">Testimonial</a>
+                    <a class="nav-link" href="#blogs">Blogs</a>
+                    <a class="nav-link" href="#contact">Contact Us</a>
                     </div>
 
                     <div class="d-flex gap-2">
@@ -38,7 +39,7 @@
     </nav>
 
     <!-- hero -->
-    <div class="py-3 container">
+    <div class="py-3 container" id="hero">
         <div class="container row d-flex align-items-center">
             <div class="col pb-4">
                 <h2 class="text-6">Find financial support with these four medical and school fundraising tips</h2>
@@ -55,7 +56,7 @@
     </div>
 
     <!-- causes -->
-    <div class="py-5">
+    <div class="py-5" id="causes">
         <h1 class="text-center">Causes</h1>
         <p class="text-muted text-center">Lorem ipsum dolor sit amet.</p>
         <div class="d-flex gap-4 flex-wrap justify-content-center container">
@@ -95,7 +96,7 @@
     </div>
 
     <!-- learn -->
-    <div class="py-5 container">
+    <div class="py-5 container" id="learn">
         <div class="container row d-flex align-items-center">
             <img src="./assets/images/IMG_20191220_220620.jpg" alt="" class="col" style="height: 30rem;">
 
@@ -110,7 +111,7 @@
     </div>
 
     <!-- carousel in progress -->
-    <div class="py-5 container text-center">
+    <div class="py-2 container text-center" id="testimonial">
         <h2 class="text-6">What Do Our Clients Say About Us</h2>
         <div id="testimonialCarousel" class="carousel slide mx-auto mt-5" data-bs-ride="carousel"  data-bs-interval="3000">
             <div class="carousel-inner">
@@ -153,12 +154,8 @@
         </div>
     </div>
 
-    
-
-
-
     <!-- blogs -->
-    <div class="pt-5">
+    <div class="pt-5" id="blogs">
         <h2 class="text-6 text-center">Blogs</h2>
         <p class="text-muted text-center">News & Feeds</p>
 
@@ -209,7 +206,7 @@
     </div>
 
     <!-- choice -->
-    <div class="container">
+    <div class="container" id="contact">
         <div class="mt-5 d-flex flex-column flex-lg-row justify-content-center text-light gap-5 p-3 " style="background-image: url('./assets/images/IMG_20191220_220620.jpg'); background-color: rgba(0, 0, 0, 0.527); background-blend-mode: darken; min-height: 300px; align-items: center; margin: auto;">
             <div>
                 <p class="fs-5 ">Give your big hands to save the world</p>
@@ -279,12 +276,12 @@
                 <a class="navbar-brand" href="#">gofundme</a>
 
                 <div class="navbar-nav mx-auto flex-wrap">
-                    <a class="nav-link active" aria-current="page"  href="#">Home</a>
-                    <a class="nav-link text-dark" href="#">Causes</a>
-                    <a class="nav-link text-dark" href="#">About us</a>
-                    <a class="nav-link text-dark" href="#">Testimonial</a>
-                    <a class="nav-link text-dark" href="#">Blogs</a>
-                    <a class="nav-link text-dark" href="#">Contact Us</a>
+                    <a class="nav-link active" aria-current="page"  href="#hero">Home</a>
+                    <a class="nav-link text-dark" href="#causes">Causes</a>
+                    <a class="nav-link text-dark" href="#learn">About us</a>
+                    <a class="nav-link text-dark" href="#testimonial">Testimonial</a>
+                    <a class="nav-link text-dark" href="#blogs">Blogs</a>
+                    <a class="nav-link text-dark" href="#contact">Contact Us</a>
                 </div>
 
                 <a class="btn btn-success custom-btn rounded-5 ps-4 pt-2 pe-4 pb-2" href="#" role="button">Make Donations</a>
